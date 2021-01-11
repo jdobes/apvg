@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
 	printf("Processing image. See 'lena_new.png' image for the results...\n");
 	
 	/* Load image from file */
-	png::image<png::rgb_pixel> img("../../../resources/lena.png");
+	png::image<png::rgb_pixel> img("../lena.png");
 	
 	unsigned int width = img.get_width();
 	unsigned int height = img.get_height();
